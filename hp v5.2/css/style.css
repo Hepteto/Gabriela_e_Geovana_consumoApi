@@ -1,0 +1,149 @@
+body{
+    margin: 0;
+    background-color: #020322;
+    /* background-image:url(../Date_Announcement_Post_Seb-_1_.jpg); */
+    /* background-repeat: no-repeat, repeat; */
+    text-align: center;
+    font-family: sans-serif;
+}
+
+
+/* MENU */
+header{
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    padding-right: 5.5vw;
+    background-color: #0E1A40;
+    border-bottom: .3rem solid #D9A84E;
+}
+li{
+    list-style-type: none;
+}
+
+/* ICONES */
+.logosite{
+    height: 6rem;
+}
+.logoharry{
+    height: 5.3rem;
+}
+.menuicon{
+    height: 3rem;
+}
+
+/* BARRA PESQUISA */
+.pesquisa{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 1rem;
+}
+form input{
+    font-size: 20px;
+    background-color: rgba(0, 0, 0, 0.3);
+    display: flex;
+    flex-direction: column;
+    width: 40vw;
+}
+/* form img{
+    height: 20px;
+    margin-top: -35px;
+    padding-left: 720px;
+    display: flex;
+    float: left;
+} */
+input{
+    height: 40px;
+    padding-left: 20px;
+    border-radius: 5px;
+    border: 1px solid #D9A84E;
+    color: #fff;
+}
+/* #lupa{
+    height: 30px;
+    display: flex;
+    float: left;
+} */
+
+a{
+    text-decoration: none;
+    
+}
+
+/* CASAS HOGWARTS */
+#img-casas{
+    height: 50vh;
+    max-height: 30rem;
+    padding-left: 13px;
+    padding-right: 13px;
+    padding-bottom: 28px;
+}
+
+
+/* PERSONAGENS PESQUISA */
+.img-character{
+    width: 100%;
+    height: 100%;
+}
+
+.characters{
+    flex-direction: column;
+    display: flex;
+    /* flex-wrap: wrap;
+    width: clamp(30rem, 100rem, 95%); */
+    /* padding: 1rem 0; */
+}
+.character{
+    display: flex;
+    justify-content: space-between;
+    width: 45vw;
+    min-width: 25rem;
+    margin: .5rem auto;
+    padding: .5rem;
+    background-color: #e8e8eb;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+.character-infos{
+    text-align: left;
+    display: flex;
+    align-items: left;
+    justify-content: center;
+    flex-direction: column;
+    width: 90%;
+    min-height: 100%;
+    padding-left: 2rem;
+}
+.character-name{
+    padding-top: 0.2rem;
+    font-size: 1.6rem;
+    color: #000;
+    /* margin-left: 1.5rem; */
+    padding-bottom: 1rem;
+}
+.character-house{
+    /* margin-left: 1.5rem; */
+    font-size: 1.2rem;
+    color: #8B8888;
+}
+.character-actor{
+    /* margin-left: 1.5rem; */
+    font-size: 1.2rem;
+    color: #8B8888;
+}
+strong{
+    color: #8B8888;
+}
+.character-image{
+    width: 7rem;
+    height: 9rem;
+    margin-left: .5rem;
+}
+/*
+#image_not{
+    width: 6rem;
+    height: 8rem;
+    /* margin-left: .5rem; 
+    margin-left: -9.7rem;
+    background-color: #c7c7c7;
+}*/

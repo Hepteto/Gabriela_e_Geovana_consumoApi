@@ -1,0 +1,118 @@
+body{
+    margin: 0;
+    background: #020322 url("../img/Date_Announcement_Post_Seb-_1_.jpg") no-repeat fixed center;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+
+/* MENU */
+header{
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    padding-right: 5.5vw;
+    background-color: #0E1A40;
+    border-bottom: .3rem solid #D9A84E;
+}
+li{
+    list-style-type: none;
+}
+
+/* ICONES */
+.logosite{
+    height: 6rem;
+}
+.logoharry{
+    height: 5.3rem;
+}
+.menuicon{
+    height: 3rem;
+}
+
+/* PERSONAGENS */
+.img-character{
+    width: 100%;
+    height: 100%;
+}
+
+.container{
+    /* display: flex; */
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    min-height: 90vh;
+    margin: 0 auto;
+}
+
+#brasao-casa{
+    padding-top: 2rem;
+    width: 8rem;
+    max-width: unset;
+}
+
+#name-casa{
+    font-size: 2.5rem;
+    color: #D9A84E;
+}
+
+.characters{
+    flex-direction: column;
+    display: flex;
+    /* flex-wrap: wrap;
+    width: clamp(30rem, 100rem, 95%); */
+    padding: 1rem 0;
+}
+.character{
+    display: flex;
+    justify-content: space-between;
+    width: 45vw;
+    min-width: 25rem;
+    margin: .5rem auto;
+    padding: .5rem;
+    background-color: #e8e8eb;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+.character-infos{
+    text-align: left;
+    display: flex;
+    align-items: left;
+    justify-content: center;
+    flex-direction: column;
+    width: 90%;
+    min-height: 100%;
+    padding-left: 2rem;
+}
+.character-name{
+    padding-top: 0.2rem;
+    font-size: 1.6rem;
+    color: #000;
+    /* margin-left: 1.5rem; */
+    padding-bottom: 1rem;
+}
+.character-house{
+    /* margin-left: 1.5rem; */
+    font-size: 1.2rem;
+    color: #8B8888;
+}
+.character-actor{
+    /* margin-left: 1.5rem; */
+    font-size: 1.2rem;
+    color: #8B8888;
+}
+strong{
+    color: #8B8888;
+}
+.character-image{
+    width: 7rem;
+    height: 9rem;
+    margin-left: .5rem;
+}
+/*
+#image_not{
+    width: 6rem;
+    height: 8rem;
+    /* margin-left: .5rem; 
+    margin-left: -9.7rem;
+    background-color: #c7c7c7;
+}*/
